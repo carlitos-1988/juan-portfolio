@@ -1,7 +1,7 @@
 {
     "basic_info": {
       "description_header": "Hi",
-      "description": "👋 I'm Juan Olmedo. Welcome to my site I've been working with technologies such as React, Bootstraps, GrapJS, GiHub, and many more SW development technologies I hope you enjoy my site",
+      "description": "👋 I'm Juan Olmedo. Welcome to my site I've been working with technologies such as React, Bootstrap, GrapJS, GiHub, and many more SW development technologies I hope you enjoy my site",
       "section_name": {
         "about": "About me",
         "projects": "Projects",
@@ -11,43 +11,15 @@
     },
     "projects": [
       {
-        "title": "Animal Shelter",
-        "startDate": "2020",
-        "description": "The most expanded application I had opportunity to work with. I've learned many technologies and my code was reviewed by awesome curator. Application handles all adoption processess and allows to store all evidence on adopting animals from animal shelter.",
+        "title": "Clue Game App",
+        "startDate": "2023",
+        "description": "Game application for a murder mistery game that allows the users to get to know a victim and investigate who killed the victim. Time is valuable in this game as 20 total killers are available and only 10 are rendered per game cycle.",
         "images": [
-          "images/portfolio/animal-shelter/p1.jpg",
-          "images/portfolio/animal-shelter/p2.jpg"
+          "images/portfolio/animal-shelter/killerApp1.jpg",
+          "images/portfolio/animal-shelter/killerApp2.jpg"
         ],
-        "url": "",
+        "url": "https://github.com/Mastermind-Murder/Final-201",
         "technologies": [
-          {
-            "class": "devicon-angularjs-plain",
-            "name": "Angular"
-          },
-          {
-            "class": "devicon-typescript-plain",
-            "name": "TypeScript"
-          },
-          {
-            "class": "devicon-csharp-plain",
-            "name": "C#"
-          }
-        ]
-      },
-      {
-        "title": "Photography",
-        "startDate": "2018",
-        "description": "Personal project for study subject. I was responsible for testing photography application that optimizes images with popular algorithms used by graphic editors like Pixlr or Adobe Photoshop. I've earned A grade :)",
-        "images": [
-          "images/portfolio/photography/p1.jpg",
-          "images/portfolio/photography/p2.jpg"
-        ],
-        "url": "https://github.com",
-        "technologies": [
-          {
-            "class": "devicon-react-original",
-            "name": "React"
-          },
           {
             "class": "devicon-javascript-plain",
             "name": "JavaScript"
@@ -55,27 +27,32 @@
         ]
       },
       {
-        "title": "3D Object Viewer",
-        "startDate": "2015",
-        "description": "One of the first apps I was working on my internship. I had to develop front-end implementation for app that shows 3D models of known buildings. This was also my first project in Angular framework. I've learned a lot!",
+        "title": "Cookies Store",
+        "startDate": "2023",
+        "description": "Project for a cookie stand that would render and update based on customers min and max generate a random number and amount of cookies sold per hour results would then be displayed in table for usage ",
         "images": [
-          "images/portfolio/adventure/p1.jpg",
-          "images/portfolio/adventure/p2.jpg"
+          "images/portfolio/photography/cookie1.jpg",
+          "images/portfolio/photography/cookie2.jpg"
         ],
-        "url": "https://github.com",
+        "url": "https://github.com/carlitos-1988/cookie-stand",
         "technologies": [
           {
-            "class": "devicon-angularjs-plain",
-            "name": "Angular"
-          },
-          {
-            "class": "devicon-typescript-plain",
-            "name": "TypeScript"
-          },
-          {
-            "class": "devicon-csharp-plain",
-            "name": "C#"
+            "class": "devicon-javascript-plain",
+            "name": "JavaScript"
           }
+        ]
+      },
+      {
+        "title": "Chocolate Pizza",
+        "startDate": "2023",
+        "description": "One of the first apps I was working in CodeFellows I had to develop front-end implementation for an Adobe image I was able to use flexbox and core CSS features",
+        "images": [
+          "images/portfolio/adventure/chocolate1.jpg",
+          "images/portfolio/adventure/chocolate2.jpg"
+        ],
+        "url": "https://github.com/carlitos-1988/chocolatePizza301",
+        "technologies": [
+         
         ]
       }
     ],
