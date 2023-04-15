@@ -1,16 +1,16 @@
 {
     "basic_info": {
       "name": "Juan Olmedo",
-      "titles": [ "Software Developer" ],
+      "titles": [ "Software Developer (in training)" ],
       "social": [
         {
           "name": "github",
-          "url": "https://github.com",
+          "url": "https://github.com/carlitos-1988?tab=repositories",
           "class": "fab fa-github"
         },
         {
           "name": "instagram",
-          "url": "https://www.instagram.com",
+          "url": "https://www.linkedin.com/in/juan-olmedo-5613784a/",
           "class": "fab fa-instagram"
         }
       ],
