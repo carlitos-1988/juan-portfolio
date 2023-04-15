@@ -106,6 +106,7 @@ class Header extends Component {
               <h1 className="mb-0">
                 {name}
               </h1>
+              <p>Prior Air Force / Army analytical thinker and developer</p>
               <div className="title-container">
                 <HeaderTitleTypeAnimation />
               </div>
