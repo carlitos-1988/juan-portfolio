@@ -58,37 +58,34 @@
     ],
     "experience": [
       {
-        "company": "DefOpenSource",
-        "title": "Front-End Developer",
-        "years": "10.2019 - present",
+        "company": "Northrop Grumman",
+        "title": "Software Development Analyst",
+        "years": "06.2018 - obecnie",
         "mainTech": [
-          "Angular 8/9/10"
+          "Atlassian",
+          "License Management",
+          "Cameo"
+
         ],
         "technologies": [
-          "REST API",
-          "RxJS",
-          "JavaScript",
-          "Bootstrap",
-          "MDBootstrap",
-          "EF Core",
-          ".NET Core",
-          "SignalR",
-          "Angular Material"
+          "Java",
+          "Excel"
+
         ]
       },
       {
-        "company": "Serros Solutions",
-        "title": "Intern",
-        "years": "01.2018 - 09.2019",
+        "company": "Jet Propulsion Laboratory",
+        "title": "Quality Assurance Engineer",
+        "years": "05.2017 - 09.2018",
         "mainTech": [
-          "Angular 7/8"
+          "GitHub",
+          "AS9100",
+          "NASA STD 8739.1A",
+          " IPC J-STD-001 Soldered Electrical and  Electronic Assemblies "
         ],
         "technologies": [
-          "RxJS",
-          "Django",
-          "PHP",
-          "JavaScript",
-          "DHTMLX Gantt"
+          "GitHub"
+          
         ]
       }
     ]
