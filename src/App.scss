@@ -38,7 +38,7 @@ header {
 	-webkit-background-size: cover;
 	text-align: center;
 	overflow: hidden;
-	background-color: #e9d5a1;
+	background-color: #F2DFEB;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -70,14 +70,14 @@ header .nav {
 	padding: 8px 15px 2px 15px;
 	position: relative;
 	z-index: -500;
-	border-top: 5px solid #696969;
+	border-top: 5px solid #3D54D9;
 	border-radius: 0 0 5px 5px;
-	background-color: #696969;
+	background-color: #3D54D9;
 	color: white;
 }
 
 .skills-tile {
-	background-color: transparentize(#F8F5F4, 0.95);
+	background-color: transparentize(#3D54D9, 0.95);
 	padding: 10px 10px 5px 10px;
 	width: 100px;
 	margin: 5px 0 5px 0;
@@ -120,7 +120,7 @@ header h1 {
 }
 
 #about {
-	background: #fff;
+	background: #96ACD9;
 	overflow: hidden;
 }
 
@@ -139,7 +139,7 @@ header h1 {
 }
 
 .foto div {
-	background: #ffffff;
+	background: #96ACD9;
 	display: inline-block;
 	margin: 0 auto 5% auto;
 	padding: 10px 10px 5px;
@@ -184,11 +184,11 @@ header h1 {
 
 .polaroid img {
 	display: block;
-	max-width: 200px;
+	max-width: 250px;
 }
 
 .polaroid span {
-	background: #ffffff;
+	background: black;
 	display: inline-block;
 	margin: 55px 75px 30px;
 	padding: 15px 15px 30px;
@@ -231,7 +231,8 @@ header h1 {
 }
 
 #resume {
-	background: #efe1bd;
+	background-image: url("../public/images/bk1.jpg");
+	// background: #96ACD9;
 }
 
 .experience-icon {
@@ -353,7 +354,7 @@ header h1 {
 }
 
 #portfolio {
-	background: #efe1bd;
+	background: #96ACD9;
 	padding-bottom: 5%;
 }
 
@@ -402,7 +403,7 @@ header h1 {
 	font: 18px/24px 'opensans-bold', sans-serif;
 	text-transform: uppercase;
 	letter-spacing: 3px;
-	color: #fff;
+	color: blue;
 	text-align: center;
 }
 
