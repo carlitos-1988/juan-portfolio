@@ -22,30 +22,20 @@ class App extends Component {
     this.swapCurrentlyActiveLanguage(oppositeLangIconId);
     document.documentElement.lang = pickedLanguage;
     var resumePath =
-      document.documentElement.lang === window.$primaryLanguage
-        ? `res_primaryLanguage.json`
-        : `res_secondaryLanguage.json`;
+      document.documentElement.lang === window.$primaryLanguage ? `res_primaryLanguage.json` : `res_secondaryLanguage.json`;
     this.loadResumeFromPath(resumePath);
   }
 
   swapCurrentlyActiveLanguage = (oppositeLangIconId) => {
-    var pickedLangIconId =
-      oppositeLangIconId === window.$primaryLanguageIconId
-        ? window.$secondaryLanguageIconId
-        : window.$primaryLanguageIconId;
-    document
-      .getElementById(oppositeLangIconId)
-      .removeAttribute("filter", "brightness(40%)");
-    document
-      .getElementById(pickedLangIconId)
-      .setAttribute("filter", "brightness(40%)");
+    var pickedLangIconId = oppositeLangIconId === window.$primaryLanguageIconId ? window.$secondaryLanguageIconId : window.$primaryLanguageIconId;
+
+    document.getElementById(oppositeLangIconId).removeAttribute("filter", "brightness(40%)");
+    document.getElementById(pickedLangIconId).setAttribute("filter", "brightness(40%)");
   }
 
   componentDidMount = () => {
     this.loadSharedData();
-    this.applyPickedLanguage(
-      window.$primaryLanguage,
-      window.$secondaryLanguageIconId
+    this.applyPickedLanguage(window.$primaryLanguage,window.$secondaryLanguageIconId
     );
   }
 
@@ -84,14 +74,16 @@ class App extends Component {
         <Routes>
           <Route 
             exact path="/" 
-            element={<Home
+            element={
+            <Home
               resumeData={this.state.resumeData}
               sharedData={this.state.sharedData}
             />}>
           </Route>
           <Route 
             path="/about" 
-            element={<About
+            element=
+            {<About
               resumeBasicInfo={this.state.resumeData.basic_info}
               sharedBasicInfo={this.state.sharedData.basic_info}
             />}>

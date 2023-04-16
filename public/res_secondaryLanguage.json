@@ -1,48 +1,40 @@
 {
     "basic_info": {
-      "description_header": "Cześć",
+      "description_header": "Hola!",
       "description": "👋 Soy Juan Olmedo. Bienvenido a mi sitio. He estado trabajando con tecnologías como React, Bootstrap, GrapJS, GiHub y muchas más tecnologías de desarrollo SW. Espero que disfrutes de mi sitio.",
       "section_name": {
-        "about": "O mnie",
-        "projects": "Projekty",
-        "skills": "Umiejętności",
-        "experience": "Doświadczenie"
+        "about": "sobre mi",
+        "projects": "Projectos",
+        "skills": "Habilidades",
+        "experience": "Experencia"
       }
     },
     "projects": [
       {
-        "title": "Animal Shelter",
-        "startDate": "2020",
-        "description": "Najbardziej rozbudowana aplikacja nad którą miałam okazję pracować. Poznałam dużo technologii a mój kod by sprawdzany przez super opiekuna. Aplikacja obsługuje wszystkie procesy adopcji i pozwala na przechowywanie wszelkiej dokumentacji związanej z adopcją zwierząt ze schroniska.",
+        "title": "Aplicación de juego de misterio de asesinato ",
+        "startDate": "2023",
+        "description": "Aplicación de misterio de asesinato que permite a los usuarios conocer a una víctima i investigar quién lo mató. El tiempo es valioso en este juego, ya que hay 20 asesinos en total disponibles y solo 10 se representan por ciclo de juego.",
         "images": [
-          "images/portfolio/animal-shelter/p1.jpg",
-          "images/portfolio/animal-shelter/p2.jpg"
+          "images/portfolio/animal-shelter/killerApp1.jpg",
+          "images/portfolio/animal-shelter/killerApp2.jpg"
         ],
-        "url": "",
+        "url": "https://github.com/Mastermind-Murder/Final-201",
         "technologies": [
           {
-            "class": "devicon-angularjs-plain",
-            "name": "Angular"
-          },
-          {
-            "class": "devicon-typescript-plain",
-            "name": "TypeScript"
-          },
-          {
-            "class": "devicon-csharp-plain",
-            "name": "C#"
+            "class": "devicon-javascript-plain",
+            "name": "JavaScript"
           }
         ]
       },
       {
-        "title": "Photography",
-        "startDate": "2018",
-        "description": "Osobisty projekt na przedmiot ze studiów. Byłam odpowiedzilna za testowanie aplikacji, która optymalizuje zdjęcia z pomocą popularnych algorytmów używanych przed edytory grafiki takie jak Pixlr czy Adobe Photoshop. Otrzymałam 5-tkę za projekt :)",
+        "title": "Tienda de Galletas",
+        "startDate": "2023",
+        "description": "Proyecto para un puesto de galletas que se renderizaría y actualizaría según el mínimo y el máximo de los clientes, generaría un número aleatorio y la cantidad de galletas vendidas por hora, los resultados se mostraran en una tabla para su uso",
         "images": [
-          "images/portfolio/photography/p1.jpg",
-          "images/portfolio/photography/p2.jpg"
+          "images/portfolio/photography/cookie1.jpg",
+          "images/portfolio/photography/cookie2.jpg"
         ],
-        "url": "https://github.com",
+        "url": "https://github.com/carlitos-1988/cookie-stand",
         "technologies": [
           {
             "class": "devicon-react-original",
@@ -55,26 +47,22 @@
         ]
       },
       {
-        "title": "3D Object Viewer",
-        "startDate": "2015",
-        "description": "Jedna z pierwszych aplikacji nad którymi pracowałam na stażu. Musiałam przygotować front-end dla aplikacji, która pokazuje modele 3D znanych budynków. To był także mój pierwszy projekt w frameworku Angular. Dużo się nauczyłam!",
+        "title": "Pizza de Chocolate",
+        "startDate": "2023",
+        "description": "Una de las primeras aplicaciones en las que estaba trabajando en CodeFellows. Tuve que desarrollar una implementación de front-end para una imagen de Adobe. Pude usar flexbox y funciones básicas de CSS.",
         "images": [
-          "images/portfolio/adventure/p1.jpg",
-          "images/portfolio/adventure/p2.jpg"
+          "images/portfolio/adventure/chocolate1.jpg",
+          "images/portfolio/adventure/chocolate2.jpg"
         ],
-        "url": "https://github.com",
+        "url": "https://github.com/carlitos-1988/chocolatePizza301",
         "technologies": [
           {
             "class": "devicon-angularjs-plain",
             "name": "Angular"
           },
           {
-            "class": "devicon-typescript-plain",
-            "name": "TypeScript"
-          },
-          {
-            "class": "devicon-csharp-plain",
-            "name": "C#"
+            "class": "devicon-javascript-plain",
+            "name": "JavaScript"
           }
         ]
       }
@@ -85,31 +73,44 @@
         "title": "Software Development Analyst",
         "years": "06.2018 - obecnie",
         "mainTech": [
-          "Angular 8/9/10"
+          "COMPTIA Sec+",
+          "Atlassian tool suite",
+          "License Management",
+          "Cameo"
+
         ],
         "technologies": [
-          "REST API",
-          "RxJS",
-          "JavaScript",
-          "Bootstrap",
-          "MDBootstrap",
-          "EF Core",
-          "Angular Material"
+          "Java",
+          "Excel",
+          "linux"
+
         ]
       },
       {
-        "company": "Serros Solutions",
-        "title": "Stażystka",
-        "years": "01.2018 - 09.2019",
+        "company": "Jet Propulsion Laboratory",
+        "title": "Quality Assurance Engineer",
+        "years": "05.2017 - 09.2018",
         "mainTech": [
-          "Angular 7/8"
+          "GitHub",
+          "AS9100",
+          "NASA STD 8739.1A",
+          " IPC J-STD-001 Soldered Electrical and  Electronic Assemblies "
         ],
         "technologies": [
-          "REST API",
-          "RxJS",
-          "Swagger",
-          "JavaScript",
-          "DHTMLX Gantt"
+          "GitHub"
+          
+        ]
+      },
+      {
+        "company": "Defence Contract Management Agency",
+        "title": "Quality Assurance Specialist",
+        "years": "09.2014 - 05.2017",
+        "mainTech": [
+          "AS9100"
+        ],
+        "technologies": [
+          
+          
         ]
       }
     ]

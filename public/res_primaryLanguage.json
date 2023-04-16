@@ -11,7 +11,7 @@
     },
     "projects": [
       {
-        "title": "Clue Game App",
+        "title": "Murder Mistery Game App",
         "startDate": "2023",
         "description": "Game application for a murder mistery game that allows the users to get to know a victim and investigate who killed the victim. Time is valuable in this game as 20 total killers are available and only 10 are rendered per game cycle.",
         "images": [
@@ -62,14 +62,16 @@
         "title": "Software Development Analyst",
         "years": "06.2018 - obecnie",
         "mainTech": [
-          "Atlassian",
+          "COMPTIA Sec+",
+          "Atlassian tool suite",
           "License Management",
           "Cameo"
 
         ],
         "technologies": [
           "Java",
-          "Excel"
+          "Excel",
+          "linux"
 
         ]
       },
@@ -85,6 +87,18 @@
         ],
         "technologies": [
           "GitHub"
+          
+        ]
+      },
+      {
+        "company": "Defence Contract Management Agency",
+        "title": "Quality Assurance Specialist",
+        "years": "09.2014 - 05.2017",
+        "mainTech": [
+          "AS9100"
+        ],
+        "technologies": [
+          
           
         ]
       }
